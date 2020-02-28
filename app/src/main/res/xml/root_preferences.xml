@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference android:key="connections"
+        android:title="Connections" android:summary="Wi-Fi, Bluetooth, Data Usage, Flight Mode"
+        android:icon="@drawable/ic_connect"/>
+
+    <Preference android:key="sounds"
+        android:title="Sounds and Vibrations" android:summary="Sounds, Vibration, Do not disturb"
+        android:icon="@drawable/ic_sound"/>
+
+    <Preference android:key="display"
+        android:title="Display" android:summary="Brightness, Font"
+        android:icon="@drawable/ic_display"/>
+
+</PreferenceScreen>
